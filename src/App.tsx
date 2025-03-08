@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import api from "./services/api";
 import axios from "axios";
+import api from "./services/api";
 
 type Pokemon = {
   name: string;
@@ -13,7 +13,7 @@ function App() {
   const getPokemons = async () => {
     try {
       const endPoints = [];
-      for (let i = 1; i <= 50; i++) {
+      for (let i = 1; i <= 151; i++) {
         endPoints.push(api.get(`pokemon/${i}/`));
       }
 

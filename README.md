@@ -62,8 +62,6 @@
   <li>Hovering over a Pokémon card will slightly enlarge it, thanks to the <strong>Tailwind CSS</strong> transition effect.</li>
 </ul>
 
-<h2>Example</h2>
-<img src="./images/pokedex_example.png" alt="Pokedex Example" style="max-width: 100%;"/>
 
 <h2>Contributing</h2>
 <ol>
@@ -74,5 +72,4 @@
   <li>Create a new Pull Request.</li>
 </ol>
 
-<h2>License</h2>
-<p>This project is open-source and available under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
+
